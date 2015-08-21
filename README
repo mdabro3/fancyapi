@@ -1,0 +1,5 @@
+TO RUN:
+
+rebar compile
+erl -pa deps/*/ebin ebin
+1> application:start(fancyapi).
