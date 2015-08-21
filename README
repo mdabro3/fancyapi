@@ -1,5 +1,6 @@
 TO RUN:
 
-rebar compile
+rebar get-deps
+rebar compile  && deps/etest/bin/etest-runner
 erl -pa deps/*/ebin ebin
 1> application:start(fancyapi).
