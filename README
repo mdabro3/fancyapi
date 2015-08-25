@@ -6,7 +6,7 @@ erl -pa deps/*/ebin ebin
 1> application:start(fancyapi).
 
 
-src file explaination:
+src file explanation:
 fancyapi.app.src        - OTP application resource file, defines the application.
 fancyapi_app.erl        - Application Controller, starts and stops the app.
 fancyapi_sup.erl        - Supervisor, starts and watches the workers.
