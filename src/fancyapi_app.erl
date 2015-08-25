@@ -12,7 +12,6 @@
 start() ->
     application:start(fancyapi).
 
-
 start(_StartType, _StartArgs) ->
     fancyapi_sup:start_link().
 

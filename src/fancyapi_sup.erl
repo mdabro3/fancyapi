@@ -1,4 +1,3 @@
-
 -module(fancyapi_sup).
 
 -behaviour(supervisor).
